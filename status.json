@@ -1,0 +1,36 @@
+{
+  "students": [
+    { "student_id": 1, "name": "Munkhbat" },
+    { "id": 2, "name": "DoneName" },
+    { "id": 3, "name": "InprogressName" },
+    { "id": 4, "name": "NotStartedName" }
+  ],
+
+  "prjects": [
+    {
+      "project_id": 1,
+      "name": "Portfolio"
+    },
+    {
+      "project_id": 2,
+      "name": "Meta Blog"
+    },
+    {
+      "project_id": 3,
+      "name": "Weather"
+    }
+  ],
+  "statuses": [
+    { "student_id": 1, "project_id": 1, "status": "Done" },
+    { "student_id": 1, "project_id": 2, "status": "Not started" },
+    { "student_id": 1, "project_id": 3, "status": "Done" },
+
+    { "student_id": 2, "project_id": 1, "status": "Not started" },
+    { "student_id": 2, "project_id": 2, "status": "In progress" },
+    { "student_id": 2, "project_id": 3, "status": "Done" },
+
+    { "student_id": 3, "project_id": 1, "status": "In progress" },
+    { "student_id": 3, "project_id": 2, "status": "Done" },
+    { "student_id": 3, "project_id": 3, "status": "Not started" }
+  ]
+}
